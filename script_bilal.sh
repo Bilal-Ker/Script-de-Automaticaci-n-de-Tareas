@@ -671,7 +671,8 @@ while true; do
         metasploit
 
     elif [ "$opcion" -eq 8 ] 2>/dev/null; then
-        echo "Saliendo del menú. ¡Adiós!"
+        
+        figlet -f big   '       ADIOS!' | lolcat
         break
     else
         echo "Opción no válida, por favor intenta nuevamente."
